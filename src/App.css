@@ -49,6 +49,13 @@ footer, footer a{
     -webkit-text-stroke-color: transparent;
 }
 
+.selected h2{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 0.06em;
+}
+
 .🧾 > a > h2:hover{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
@@ -58,7 +65,14 @@ footer, footer a{
 
 @supports (-webkit-background-clip: text) {
     .🧾 > a > h2:hover{
-        -webkit-text-fill-color: #1E272E;
+        -webkit-text-fill-color: #1E272E !important;
+        -webkit-background-clip: text;
+        background-image: var(--rainbow);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: transparent;
+    }
+    .selected h2{
+        -webkit-text-fill-color: #1E272E !important;
         -webkit-background-clip: text;
         background-image: var(--rainbow);
         -webkit-text-stroke-width: 2px;
