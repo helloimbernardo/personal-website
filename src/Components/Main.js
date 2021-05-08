@@ -2,6 +2,7 @@ import React from 'react';
 import Content from "./Content";
 import {Link, NavLink} from "react-router-dom";
 import Twemoji from "./Twemoji/Twemoji";
+import '../App.css';
 
 const Main = () => {
     return (
