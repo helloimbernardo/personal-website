@@ -1,6 +1,6 @@
 # bernawastaken.github.io
 
-Repository for my landing page available at [www.✌🌈✌.ml](https://www.✌🌈✌.ml)
+Repository for my landing page available at [✌🌈✌.ml](https://✌🌈✌.ml)
 
 ## Open Source Used:
 - [Twemoji React component by chibicode](https://gist.github.com/chibicode/fe195d792270910226c928b69a468206)
