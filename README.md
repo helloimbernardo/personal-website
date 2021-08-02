@@ -1,5 +1,4 @@
-# bernawastaken.github.io
-
+# ✌️🌈✌️.ml
 Repository for my landing page available at [✌🌈✌.ml](https://✌🌈✌.ml)
 
 ## Open Source Used:
