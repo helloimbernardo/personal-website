@@ -65,7 +65,7 @@ const Interests = () => (
             href="https://open.spotify.com/user/bernardooliveirajb">you can check out what I've been listening to on
             spotify</a></p>
         <iframe src="https://open.spotify.com/follow/1/?uri=spotify:user:bernardooliveirajb&size=detail&theme=light"
-                width="300" height="56" scrolling="no" frameBorder="0"
+                title="Bernardo Oliveira on Spotify" width="300" height="56" scrolling="no" frameBorder="0"
                 allowTransparency="true"/>
         <p>I also like reading <Twemoji emoji='📚'/>, photography <Twemoji emoji='📷'/>, enjoying nature <Twemoji
             emoji='🏞'/> and travelling <Twemoji emoji='✈'/>.</p>
