@@ -1,5 +1,5 @@
 # ✌️🌈✌️.ml
-Repository for my landing page available at [✌🌈✌.ml](https://✌🌈✌.ml)
+Repository for my landing page available at [✌🌈✌.ml](https://www.✌🌈✌.ml) / [helloimbernardo.ml](https://www.helloimbernardo.ml)
 
 ## Open Source Used:
 - [Next.js](https://nextjs.org/)
