@@ -1,7 +1,12 @@
 {
-  "name": "helloimbernardo.github.io",
+  "name": "personal-website",
   "version": "2.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helloimbernardo/personal-website.git"
+  },
+  "homepage": "https://www.helloimbernardo.ml/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

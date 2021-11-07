@@ -83,7 +83,7 @@ export default function Home() {
                                 </p>
                                 <p>
                                     This website is <a
-                                    href='https://github.com/helloimbernardo/helloimbernardo.github.io'
+                                    href='https://github.com/helloimbernardo/personal-website'
                                     className={`${styles.normalizedLinks} border-orange-500 border-b-2 font-mono`}
                                     rel='noreferrer' target='_blank'>Open Source</a>
                                 </p>
