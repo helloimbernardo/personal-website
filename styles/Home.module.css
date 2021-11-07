@@ -1,0 +1,38 @@
+.normalizedLinks{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.newTabCursor:hover{ cursor: alias; }
+
+.titleGradient{
+    background: var(--rainbow);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: theme(colors.gray.800);
+}
+
+/*
+    --- LINKS ---
+Link styles adapted from https://codepen.io/martinwolf/pen/eNNdme
+*/
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    transition: width .3s;
+}
+.link:hover::after {
+    width: 100%;
+}
+
+.greenLink::after{ @apply bg-green-500; }
+.blueLink::after{ @apply bg-blue-500; }
+.yellowLink::after{ @apply bg-yellow-500; }
+.pinkLink::after{ @apply bg-pink-500; }
+
+/*
+    --- END OF LINKS ---
+*/
