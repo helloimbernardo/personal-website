@@ -1,4 +1,4 @@
-export default function ConsistentHead () {
+export default function ConsistentHead() {
     return(
         <>
             <link rel="icon" href="/favicon.ico"/>

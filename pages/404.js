@@ -1,4 +1,5 @@
 import Head from "next/head";
+
 import ConsistentHead from "../components/ConsistentHead";
 
 export default function FourOhFour() {

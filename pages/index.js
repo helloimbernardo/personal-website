@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import ConsistentHead from "../components/ConsistentHead";
 
+import ConsistentHead from "../components/ConsistentHead";
+import styles from '../styles/Home.module.css'
 
 /**
  * @param props.href HTMLHyperlinkElementUtils
