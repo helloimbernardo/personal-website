@@ -1,11 +1,11 @@
 module.exports = {
-  reactStrictMode: true,
+  reactStrictMode : true,
   async redirects() {
-    return[
+    return [
       {
-        source: '/spotify',
-        destination: 'https://open.spotify.com/user/bernardooliveirajb',
-        permanent: true,
+        source : '/spotify',
+        destination : 'https://open.spotify.com/user/bernardooliveirajb',
+        permanent : true,
       },
     ]
   },
