@@ -95,10 +95,10 @@ export default function Home() {
                                     spotify
                                 </HomeLink>
                                 <HomeLink
-                                    href="https://instagram.com/helloimbernardo/"
+                                    href="https://www.flickr.com/people/helloimbernardo/"
                                     color={styles.pinkLink}
                                 >
-                                    instagram
+                                    photos
                                 </HomeLink>
                                 <HomeLink
                                     href="https://github.com/helloimbernardo"
