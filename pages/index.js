@@ -13,9 +13,8 @@ import styles from "../styles/Home.module.css";
 function HomeLink(props) {
     return (
         <a
-            href={props.href}
-            rel="noreferrer"
-            target="_blank"
+    href = {props.href} rel = "noreferrer"
+    target = "_blank"
             className={`text-white font-display m-1 sm:m-4 ${styles.link} ${props.color}`}
         >
             {props.children}
@@ -57,11 +56,10 @@ export default function Home() {
             ((today - birthDate) / millisecondsPerYear)
                 .toString().substring(0, 2)
         );
-        setMilliseconds(
-            ((today - birthDate) / millisecondsPerYear)
-                .toString().substring(3, 12)
-        );
-    }, 50);
+            setMilliseconds(((today - birthDate) / millisecondsPerYear)
+                                .toString()
+                                .substring(3, 12));
+}, 50);
     return (
         <div>
             <Head>
@@ -84,43 +82,49 @@ export default function Home() {
                             <div className="m-4 grid grid-flow-col-dense grid-rows-4  sm:grid-rows-1">
                                 <HomeLink
                                     href="https://tumblr.helloimbernardo.ml"
-                                    color={styles.blueLink}
-                                >
-                                    &quot;blog&quot;
-                                </HomeLink>
+    color = {styles.blueLink} > & quot; blog & quot;
+        <
+        /HomeLink>
                                 <HomeLink
-                                    href="https://open.spotify.com/user/bernardooliveirajb"
-                                    color={styles.greenLink}
-                                >
-                                    spotify
-                                </HomeLink>
+                                    href="https:/ /
+            open.spotify.com / user / bernardooliveirajb "
+    color =
+        {styles.greenLink} > spotify <
+        /HomeLink>
                                 <HomeLink
-                                    href="https://www.flickr.com/people/helloimbernardo/"
-                                    color={styles.pinkLink}
-                                >
-                                    photos
-                                </HomeLink>
+                                    href="https:/ /
+            www.flickr.com / people / helloimbernardo / "
+    color =
+        {styles.pinkLink} > photos <
+        /HomeLink>
                                 <HomeLink
-                                    href="https://github.com/helloimbernardo"
-                                    color={styles.yellowLink}
-                                >
-                                    github
-                                </HomeLink>
+                                    href="https:/ /
+            github.com / helloimbernardo "
+    color = {styles.yellowLink} >
+            github</HomeLink>
                             </div>
-                            <div className="px-6 mt-4 justify-center text-white prose">
-                                <p>
-                                    Hello, I&apos;m <b>Bernardo Oliveira</b>
-                                    <SmallLink href="https://pronoun.is/he/:or/they/:or/she">
-                                        (any pronouns)
-                                    </SmallLink>
-                                    , a {age}<span className='text-gray-300'>.{milliseconds}</span> year old dev student from Portugal.
-                                </p>
+            <div className = "px-6 mt-4 justify-center text-white prose">
+            <p>Hello,
+    I & apos;
+        m<b>Bernardo Oliveira <
+        /b>
+                                    <SmallLink href="https:/ /
+            pronoun.is / he /: or / they /: or /
+            she ">
+            (any pronouns)<
+                /SmallLink>
+                                    , a {age}<span className='text-gray-300'>.{milliseconds}</span>
+                year old dev student from Portugal.<
+        /p>
                                 <p>
                                     This website is{" "}
                                     <a
-                                        href="https://github.com/helloimbernardo/personal-website"
-                                        className={`${styles.normalizedLinks} border-orange-500 border-b-2 font-mono`}
-                                        rel="noreferrer"
+                                        href="https:/ /
+                github.com / helloimbernardo / personal -
+            website "
+    className = {`${
+        styles.normalizedLinks} border-orange-500 border-b-2 font-mono`} rel =
+        "noreferrer"
                                         target="_blank"
                                     >
                                         Open Source
@@ -133,4 +137,4 @@ export default function Home() {
             </div>
         </div>
     );
-}
+                                        }
