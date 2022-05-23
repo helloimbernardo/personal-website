@@ -1,6 +1,10 @@
 # ✌️🌈✌️.ml
 Repository for my landing page available at [✌🌈✌.ml](https://www.✌🌈✌.ml) / [helloimbernardo.ml](https://www.helloimbernardo.ml)
 
+It also serves as a url shortner of sorts for some pages, listed below:
+- [✌🌈✌.ml/spotify](https://✌🌈✌.ml/spotify) redirects to my spotify profile
+
+
 ## Open Source Used:
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
